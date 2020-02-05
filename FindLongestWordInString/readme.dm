@@ -25,11 +25,11 @@ First, for each word w in D, create a 2-tuple containing w and the number 0 (i.e
 
 Group the words by t.w[t.i] (initially t.i is 0, so initially it is by first letter). For our example dictionary D = {"able", "ale", "apple", "bale", "kangaroo"}, we’ll have:
 Java
-'''
+´´´
 a -> [("able", 0), ("ale", 0), ("apple", 0)]
 b -> [("bale", 0)]
 k -> [("kangaroo", 0)]
-'''
+´´´
 
 What this is doing is telling you what words you will make progress on finding for each possible letter that you might see next in S.
 
